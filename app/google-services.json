@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "44649526949",
+    "project_id": "m-attachee",
+    "storage_bucket": "m-attachee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44649526949:android:402108a5569a7626b33f4c",
+        "android_client_info": {
+          "package_name": "com.environment.m_attachee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44649526949-285n4p5n3qnoouo3dhpvi5570b0p1krc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-xr9tp-egoPBeGz_q1mlizsvS06EdZqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44649526949-285n4p5n3qnoouo3dhpvi5570b0p1krc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

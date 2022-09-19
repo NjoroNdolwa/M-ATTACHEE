@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:layout_margin="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/re"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="NAME"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t1"
+                android:layout_margin="5dp"
+                android:text="SCHOOL"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t2"
+                android:layout_margin="5dp"
+                android:text="PROGRAMME"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t3"
+                android:layout_margin="5dp"
+                android:text="COURSE"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t4"
+                android:layout_margin="5dp"
+                android:text="MODULE"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t5"
+                android:layout_margin="5dp"
+                android:text="PHONE NO"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/t1"
+                android:fontFamily="@font/alegreya"
+                android:text="Ndolwa Vincent"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/t2"
+                android:fontFamily="@font/alegreya"
+                android:text="Kibabii University"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/programme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/school"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/t3"
+                android:fontFamily="@font/alegreya"
+                android:text="Degree"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/programme"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/t4"
+                android:fontFamily="@font/alegreya"
+                android:text="Degree"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/moduleYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/course"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/t5"
+                android:fontFamily="@font/alegreya"
+                android:text="4th"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/moduleYear"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/t6"
+                android:fontFamily="@font/alegreya"
+                android:text="0721707288"
+                android:textColor="@color/black"
+                android:textSize="8sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_toRightOf="@+id/re">
+
+            <TextView
+                android:id="@+id/d1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:fontFamily="@font/alegreya"
+                android:text="M"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/d2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_toRightOf="@id/d1"
+                android:fontFamily="@font/alegreya"
+                android:text="T"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/d3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_toRightOf="@id/d2"
+                android:fontFamily="@font/alegreya"
+                android:text="W"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/d4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_toRightOf="@id/d3"
+                android:fontFamily="@font/alegreya"
+                android:text="T"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/d5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_toRightOf="@id/d4"
+                android:fontFamily="@font/alegreya"
+                android:text="F"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="normal" />
+            <TextView
+                android:id="@+id/wk1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:fontFamily="@font/alegreya"
+                android:text="week 1"
+                android:layout_below="@id/d1"
+                android:textColor="@color/black"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/y1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_below="@id/wk1"
+                android:fontFamily="@font/alegreya"
+                android:text="P"
+                android:textColor="@color/black"
+                android:textSize="6sp"
+                android:textStyle="normal" />
+            <TextView
+                android:id="@+id/y2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_toRightOf="@id/y1"
+                android:layout_below="@id/wk1"
+                android:fontFamily="@font/alegreya"
+                android:text="P"
+                android:textColor="@color/black"
+                android:textSize="6sp"
+                android:textStyle="normal" />
+            <TextView
+                android:id="@+id/y3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_toRightOf="@id/y2"
+                android:layout_below="@id/wk1"
+                android:fontFamily="@font/alegreya"
+                android:text="A"
+                android:textColor="@color/black"
+                android:textSize="6sp"
+                android:textStyle="normal" />
+            <TextView
+                android:id="@+id/y4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_toRightOf="@id/y3"
+                android:layout_below="@id/wk1"
+                android:fontFamily="@font/alegreya"
+                android:text="A"
+                android:textColor="@color/black"
+                android:textSize="6sp"
+                android:textStyle="normal" />
+            <TextView
+                android:id="@+id/y5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_toRightOf="@id/y4"
+                android:layout_below="@id/wk1"
+                android:fontFamily="@font/alegreya"
+                android:text="A"
+                android:textColor="@color/black"
+                android:textSize="6sp"
+                android:textStyle="normal" />
+
+
+
+
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
